@@ -13,7 +13,7 @@ pipeline {
                 rtServer (
                     id: "ARTIFACTORY_SERVER",
                     url: "https://one.jfrog.io",
-                    credentialsId: 	myjfrog
+                    credentialsId: myjfrog
                 )
             }
         }
